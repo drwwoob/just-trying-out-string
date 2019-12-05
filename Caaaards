@@ -1,0 +1,22 @@
+#include <string>
+#include <iostream>
+using namespacestd;
+
+class Caaard{
+private:
+  string rankab[4];
+  
+public:
+  ~Caaard();
+  void printStats();
+};
+
+
+Caaard::~Caaard(){
+string rankab[] = {"space", "hat", "hyperbo", "indige"};
+}
+void Caaard::printStats(){
+  for (int i = 0; i < 4; I++){
+    cout << rankab[i];
+  }
+}
